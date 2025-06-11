@@ -7,7 +7,7 @@ def index():
     return render_template('index.html')
 
 @app.route('/pag2')
-def pag1():
+def pag2():
     return render_template('pag2.html')
 
 
